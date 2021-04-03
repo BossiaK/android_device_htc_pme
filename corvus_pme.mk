@@ -26,18 +26,18 @@ $(call inherit-product, vendor/colt/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pme
-PRODUCT_NAME := dot_pme
+PRODUCT_NAME := corvus_pme
 PRODUCT_BRAND := HTC
 PRODUCT_MODEL := HTC 10
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_RELEASE_NAME := pme
-TARGET_BOOT_ANIMATION_RES := 1440x2560
+TARGET_BOOT_ANIMATION_RES := 1440
 
 $(call inherit-product-if-exists, vendor/htc/pme/pme-vendor.mk)
 
 # Device Fingerprint
 BUILD_FINGERPRINT := htc/pmeuhl_00401/htc_pmeuhl:8.0.0/OPR1.170623.027/1012001.2:user/release-keys
   # For Device maintainer and CPU Information
-  PRODUCT_PROPERTY_OVERRIDES += \
-    ro.colt.maintainer=BossiaK \
-    ro.colt.cpu=MSM8996
+  #PRODUCT_PROPERTY_OVERRIDES += \
+  #  ro.colt.maintainer=BossiaK \
+   # ro.colt.cpu=MSM8996
