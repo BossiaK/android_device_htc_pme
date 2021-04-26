@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/crdroid_pme.mk
+    $(LOCAL_DIR)/xtended_pme.mk
 
 COMMON_LUNCH_CHOICES := \
-    crdroid_pme-userdebug
+    xtended_pme-userdebug
