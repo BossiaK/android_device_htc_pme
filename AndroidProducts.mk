@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_pme.mk
+    $(LOCAL_DIR)/lineage_pme.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_pme-userdebug
+    lineage_pme-userdebug
