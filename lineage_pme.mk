@@ -28,7 +28,7 @@ $(call inherit-product, vendor/lineage/config/common.mk)
 PRODUCT_DEVICE := pme
 PRODUCT_NAME := lineage_pme
 PRODUCT_BRAND := HTC
-PRODUCT_MODEL := HTC 10
+PRODUCT_MODEL := 10
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_RELEASE_NAME := pme
 TARGET_BOOT_ANIMATION_RES := 1440
